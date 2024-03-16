@@ -1,0 +1,30 @@
+@FluentValidationDemoENG_HostAddress = http://localhost:5281
+
+### INVALID
+
+POST {{FluentValidationDemoENG_HostAddress}}/api/people
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "",
+    "email": "felipe",
+    "age": 0,
+    "initialDate": "2024-01-01",
+    "EndDate": "2024-01-01"
+}
+
+
+### VALID
+
+POST {{FluentValidationDemoENG_HostAddress}}/api/people
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Felipe",
+    "email": "felipe@hotmail.com",
+    "age": 99,
+    "initialDate": "2024-01-01",
+    "EndDate": "2025-01-01"
+}
