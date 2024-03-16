@@ -1,6 +1,6 @@
 # Fluent Validation Tutorial in ASP.NET Core 8
 
-Link to the tutorial: XXX
+Link to the tutorial: https://youtu.be/1eYVqwej0B0
 
 Complete C# course with discount: https://felipe-gavilan.azurewebsites.net/api/Redireccion?curso=csharp-eng
 
